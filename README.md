@@ -2,6 +2,13 @@
 
 This Python code demonstrates the use of a Generative Adversarial Network (GAN) and Monte Carlo simulation for anomaly detection on the MNIST dataset. The combination of GANs and Monte Carlo simulation provides a powerful approach for identifying anomalies in complex datasets. The code utilizes a GPU to accelerate the training process and improve performance.
 
+## Motivating Articles
+
+Z. Liu, J. Hu, Y. Liu, K. Roy, X. Yuan and J. Xu, "Anomaly-Based Intrusion on IoT Networks Using AIGAN-a Generative Adversarial Network," in IEEE Access, vol. 11, pp. 91116-91132, 2023, doi: 10.1109/ACCESS.2023.3307463.
+https://ieeexplore.ieee.org/abstract/document/10226215
+
+Boccali, T., Terracciano, C. M., & Retico, A. (2024). Machine learning for Monte Carlo simulations. In Monte Carlo in Heavy Charged Particle Therapy (pp. 286-301). CRC Press.
+
 ## Overview
 
 Anomaly detection is the process of identifying instances that deviate significantly from the norm. In this code, we train a GAN to learn the normal patterns in the MNIST dataset, which consists of handwritten digit images. The trained GAN is then used to generate synthetic images, and a discriminator model is employed to assign anomaly scores to both real and generated images.
