@@ -34,7 +34,7 @@ After training the GAN, we perform anomaly detection using Monte Carlo simulatio
 The Monte Carlo simulation allows us to estimate the distribution of anomaly scores for normal instances. By setting a threshold based on this distribution, we can identify anomalies that deviate significantly from the norm.
 
 ## Results
-https://github.com/ericyoc/gan_mc_sim_anomaly_detect_image/blob/main/results_gan_montecarlo_sim.jpg
+![](https://github.com/ericyoc/gan_mc_sim_anomaly_detect_image/blob/main/results_gan_montecarlo_sim.jpg)
 
 ## GPU Acceleration
 
