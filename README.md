@@ -36,6 +36,9 @@ The Monte Carlo simulation allows us to estimate the distribution of anomaly sco
 ## Results
 ![](https://github.com/ericyoc/gan_mc_sim_anomaly_detect_image/blob/main/results_gan_montecarlo_sim.jpg)
 
+![](normal_test_image.jpg)
+![](anomaly_test_image.jpg)
+
 ## GPU Acceleration
 
 To accelerate the training process and improve performance, the code utilizes a GPU. By leveraging the parallel processing capabilities of GPUs, computationally intensive tasks like training deep learning models can be performed much faster compared to using only a CPU.
