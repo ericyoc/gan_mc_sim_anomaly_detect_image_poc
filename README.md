@@ -67,6 +67,8 @@ Feel free to explore and modify the code to adapt it to your specific anomaly de
 
 This code is inspired by the concepts of Generative Adversarial Networks and Monte Carlo simulation for anomaly detection. It builds upon the MNIST dataset and utilizes the TensorFlow and Keras libraries for implementation.
 
+Disclaimer This repository is intended for educational and research purposes.
+
 ## License
 
 This code is released under the [MIT License](LICENSE).
