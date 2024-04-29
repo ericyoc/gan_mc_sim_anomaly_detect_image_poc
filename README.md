@@ -1,6 +1,6 @@
 # Anomaly Detection using GAN and Monte Carlo Simulation
 
-This Python code demonstrates the use of a Generative Adversarial Network (GAN) and Monte Carlo simulation for anomaly detection on the MNIST dataset. The combination of GANs and Monte Carlo simulation provides a powerful approach for identifying anomalies in complex datasets.
+This Python code demonstrates the use of a Generative Adversarial Network (GAN) and Monte Carlo simulation for anomaly detection on the MNIST dataset. The combination of GANs and Monte Carlo simulation provides a powerful approach for identifying anomalies in complex datasets. The code utilizes a GPU to accelerate the training process and improve performance.
 
 ## Overview
 
@@ -25,6 +25,14 @@ After training the GAN, we perform anomaly detection using Monte Carlo simulatio
 4. Classify test images as anomalies if their anomaly scores fall below the threshold.
 
 The Monte Carlo simulation allows us to estimate the distribution of anomaly scores for normal instances. By setting a threshold based on this distribution, we can identify anomalies that deviate significantly from the norm.
+
+## GPU Acceleration
+
+To accelerate the training process and improve performance, the code utilizes a GPU. By leveraging the parallel processing capabilities of GPUs, computationally intensive tasks like training deep learning models can be performed much faster compared to using only a CPU.
+
+The code includes the line `with tf.device('/gpu:0'):` to specify that the code within that block should be executed on the GPU (if available). TensorFlow automatically utilizes the GPU for the computations performed within that block, such as compiling the models and training the GAN.
+
+Using a GPU can significantly reduce the processing time, especially for large datasets and complex neural network architectures. However, it's important to ensure that you have a compatible GPU (e.g., NVIDIA GPU with CUDA support) and the necessary dependencies installed (e.g., TensorFlow with GPU support, CUDA, cuDNN) to take full advantage of GPU acceleration.
 
 ## Importance of Combining GAN and Monte Carlo Simulation
 
